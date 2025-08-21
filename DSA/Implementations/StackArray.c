@@ -26,6 +26,11 @@ void push(int item) {
   }
 }
 
+int peek() {
+  int item = array[N-1];
+  return item;
+}
+
 int pop() {
   int item = array[--N];
   if(N <= max_size / 4) {
@@ -67,5 +72,6 @@ void testStack() {
 int main() {
   array = (int *) malloc(sizeof(int) * max_size);
   testStack();
+  printf("Success!");
   return 0;
 }
