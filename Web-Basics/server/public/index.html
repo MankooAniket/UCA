@@ -1,0 +1,34 @@
+<!-- Tags are the keywords in HTML and Elements are the result after they are rendered in DOM -->
+<!-- Head tag defines the dependencies, how the code will run and it is executed first on top priority -->
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <!-- It is the most common Character encoding -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <!-- meta defines properties, characteristics, etc. It is data about data. -->
+        <!-- Viewport tag came into existence when browsers started running on mobile device, otherwise websites were rendered zoomed according to the laptops width and scale.-->
+        <!-- user scalable defines if website can be zoomed -->
+        <!-- There are other properties like maximum-scale and minimum-scale also -->
+        <!-- These are for Mobile Devices only, desktop uses default configuration -->
+        <title>My Web Page</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="script.js" defer></script>
+        <script src="data.js" async></script>
+        <!-- defer downsloads the JS but executed it at last. -->
+        <!-- It is only helpful when we are doing HTML manipulation -->
+        <!-- <script src="script.js" async></script> -->
+        <!-- async downloads the JS and executes it immediately when the download is completed -->
+
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header id="header">Welcome to E-commerce Website</header>
+            <div id="tag1">List of Products</div>
+            <!-- <div id="tag2"></div> -->
+            <div id="data"></div>
+        </div>
+    </body>
+</html>
+
+<!--Defer and Async are non-blocking code as they don't stop the process to wait for the download-->

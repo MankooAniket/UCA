@@ -1,0 +1,32 @@
+body{
+    margin: 20px 10px;
+    font-size: 20px;
+    background-color: #000000;
+}
+
+div {
+    background-color: #757272;
+    border: 1px solid #000000;
+    color: #ffffff;
+    font-weight: 600;
+    margin: 10px;
+    padding: 0;
+}
+
+table, th, tr td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#header {
+    padding-left: 350px;
+    font-size: 50px;
+}
+
+#tag1 {
+    font-size: 30px;
+}
+
+.list {
+    background-color: aqua;
+}
